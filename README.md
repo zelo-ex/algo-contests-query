@@ -27,5 +27,6 @@ algo-contests-query/
 git clone --depth=1 https://github.com/zelo-ex/algo-contests-query
 cd algo-contests-query
 # Download dependencies and run source files (Go 1.22+)
+go mod download
 go run .
 ```
